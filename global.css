@@ -1,0 +1,35 @@
+/*Phone frame styles*/
+/*__________________*/
+*::-webkit-scrollbar {
+     width: 0 !important
+}
+body {
+    padding: 30px;
+}
+.phone-frame {
+    /* iPhone */
+    background-image: url('https://i1.wp.com/dz.anchorz.co.jp/wp-content/uploads/2018/10/iphone-x-frame.png');
+    /* Google Pixel */
+    /* background-image: url('https://cdn.pixabay.com/photo/2017/11/18/00/47/pixel-2-xl-2958928_960_720.png'); */
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+.device-container {
+    max-width: 250px; /*adjust based on frame width*/
+    height: 533px; /*adjust based on frame height*/
+    padding-top: 44px; /*adjust based on notch height*/
+    margin: 0 auto;
+    overflow: scroll;
+    cursor: pointer;
+}
+/*My app styles*/
+/*_____________*/
+section {
+    margin-top: 60px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
